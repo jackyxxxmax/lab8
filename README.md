@@ -1,4 +1,5 @@
-(1)不會，因為執行之後出現terminate called without an active exception
+(1)
+不會，因為執行之後出現terminate called without an active exception
 Aborted (core dumped)，代表throw之後沒有找到catch，接著呼叫terminate function，
 直接終止程式，所以不會印出。
 
@@ -7,6 +8,5 @@ Aborted (core dumped)，代表throw之後沒有找到catch，接著呼叫termina
 Aborted (core dumped)，代表throw之後的數字預設為double type，而catch只能接float type，
 接著呼叫terminate function，直接終止程式，所以不會印出。
 
-(3)compile: make
-   execute: ./lab8
-
+(3)
+不知道怎麼使memory is insufficient，所以未完成。
